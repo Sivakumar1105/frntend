@@ -1,6 +1,4 @@
-// Script File
 
-// Home Section Starts
 var menuBtn = document.querySelector('.main-navbar .menu-btn');
 var menuList = document.querySelector('.main-navbar .nav-list');
 var menuListItems = document.querySelectorAll('.nav-list li a');
@@ -30,9 +28,7 @@ function pageScrollFunction(){
 		homeSection.classList.remove('active');
 	}
 }
-// Home Section Ends
 
-// Partners Section Starts 
 $('.partners-slider').owlCarousel({
     loop:true,
     autoplay:true,
@@ -56,9 +52,7 @@ $('.partners-slider').owlCarousel({
         }
     }
 })
-// Partners Section Ends 
 
-// Testimonials Section Starts
 $('.testimonials-slider').owlCarousel({
     loop:true,
     autoplay:true,
@@ -76,4 +70,3 @@ $('.testimonials-slider').owlCarousel({
         }
     }
 })
-// Testimonials Section Ends
